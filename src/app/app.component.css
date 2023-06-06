@@ -1,9 +1,9 @@
 h1 {
-    background-color: aqua; 
+    background-color: rgb(56, 105, 212); 
     border-radius: 2px;    
     border: 1px solid black;
     justify-content: center; 
-    color: #333;
+    color: white;
     font-size: large;
     margin-right: 300px;
 }
@@ -17,7 +17,7 @@ h1 {
     box-shadow:  0 0 20px gray;
     width: 960px;
     margin: 0 auto;
-    background-color: aliceblue;
+    background-color: rgb(71, 138, 197);
 }
 .SectionMain {
     background-color: lightcoral;
