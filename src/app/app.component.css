@@ -1,0 +1,57 @@
+h1 {
+    background-color: aqua; 
+    border-radius: 2px;    
+    border: 1px solid black;
+    justify-content: center; 
+    color: #333;
+    font-size: large;
+    margin-right: 300px;
+}
+
+.addToDoItem {
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.container {
+    box-shadow:  0 0 20px gray;
+    width: 960px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.SectionMain {
+    background-color: lightcoral;
+    display: flex;
+    justify-content: left;
+    margin-right: 300px;
+}
+
+.addToDoItem_editor {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+ul {
+    list-style-type:circle;
+    padding: 2px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+button {
+    padding: 4px 8px;
+    background-color: #1e0909;
+    color: #fff;
+    border:cornsilk;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e7cdcd;
+    color: black;
+    font-style:italic;
+}

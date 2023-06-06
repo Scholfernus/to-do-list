@@ -1,0 +1,17 @@
+<div class="container">
+<div class="addToDoItem">
+  <h1 style="font-size: 24px;">To Do List - do realizacji w tym tygodniu</h1>
+</div>
+<div class="SectionMain">
+  <input   
+    placeholder="Dodaj zadanie"
+    type="text"
+    class="addToDoItem_editor"
+    [value]="todo"
+    (input)="changeTitleOfTask($event)"
+    (keydown.enter)="addTodo()"
+  />
+  <button (click)="addTodo()">Dodaj</button>
+</div>
+<app-list></app-list>
+</div>
